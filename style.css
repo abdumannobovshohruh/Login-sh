@@ -138,7 +138,7 @@ font-size: .5s;
 
 @keyframes btn-anim3 {
     0% {
-        right: -100%;
+        border-right: -100%;
     }
     50%,100% {
         right: -100%;
@@ -154,3 +154,11 @@ font-size: .5s;
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
  }
+
+
+
+ .border{
+    border: 2px dotted red;
+    animation: btn-anim4 1s linear infinite;
+ }
+ 
